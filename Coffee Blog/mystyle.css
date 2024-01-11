@@ -1,0 +1,111 @@
+/*global*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial;
+}
+p{
+    line-height: 2;
+}
+img{
+    max-width: 100%;
+}
+a{  
+    text-decoration: none;
+    color: white;
+}
+nav ul li{
+    margin-right: 20px;
+}
+/*utilities*/
+.btn{
+    display: inline-block;
+    background-color: rgba(163, 83, 4, 0.863);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 20px;
+}
+.container{
+    width: 50%;
+    margin-left: auto;
+    margin-right: 25%;
+}
+.main-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.about-us-main{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.btn1{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/*header*/
+.site-init{
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    color:white;
+}
+.top-header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-p{
+    padding: 70px;
+}
+
+
+/*main*/
+main{
+    width: 60%;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+
+
+
+/*blog*/
+.blog-container{
+    margin-top: 20px;
+}
+.blog-container h3{
+    margin-top: 20px;
+}
+.blog-container p{
+    margin-top: 20;
+}
+.blog-container .btn{
+    background-color: black;
+}
+
+
+/*footer*/
+footer{
+    background-color: black;
+    color: white;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+} 
+li{
+    display: inline-block;
+}
+
